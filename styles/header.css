@@ -11,6 +11,9 @@ nav{
 .logo{
     width:5rem;
 }
+.logoHeader{
+padding-top: 1.3rem;
+}
 .navbarIcons{
     display: flex;
     justify-content: space-between;

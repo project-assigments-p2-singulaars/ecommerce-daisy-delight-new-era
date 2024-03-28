@@ -10,11 +10,19 @@ nav{
 }
 .logo{
     width:5rem;
+    margin-left: 4vw;
+    align-items: center;
+}
+@font-face{
+    font-family:'HelveticaNeue-Light';
+    src: url(/fonts/HelveticaNeueLTStd-Lt.otf);
 }
 .navbarIcons{
+    font-family: 'HelveticaNeue-Light';
     display: flex;
     justify-content: space-between;
     width: 100%;
+align-items: center;    
 }
 #burgerMenu{
     width:10vw;
@@ -22,6 +30,13 @@ nav{
     justify-content: center;
 }
 
+
+.navbarMenu{
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+    justify-content: center;
+}
 .icons{
     display: flex;
     justify-content: space-between;
@@ -45,9 +60,19 @@ nav{
     #burgerMenu{
         width: 16vw;
     }
+    .navbarMenu{
+        display: none;
+    }
 }
 @media screen and (min-width:1024px){
 .icons{
     gap: 3vw;
 }
+.icons img {
+    width: 1.2rem;
+}
+#burgerMenu{
+    display: none;
+}
+
 }

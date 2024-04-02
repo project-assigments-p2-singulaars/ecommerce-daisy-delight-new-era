@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.productSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.productTitle{
+    font-size: 1.8rem;
+    font-family: "Kulim Park", sans-serif;
+    font-style: light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+.productImgContainer{
+    width: 18rem;
+    height: 22.75rem;
+}
+
+.productImg{
+    width: 100%;
+}
+
+.productSubtitle{
+    margin-top: 2rem;;
+    font-family: "Klee One";
+    font-weight: 600;
+    font-style: normal;
+    color: #587070;
+    padding-top: 1rem;
+    font-size: 26px;
+}
+.productDescription{
+    font-family: "Klee One";
+    font-size: 18px;
+    color: black;
+}
+.productCardPacks{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.productBox{
+    background-color: #C8D7DC;
+    border-radius: 16px;
+    width: 7rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+.productIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.productImgIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.productIconsCircle{
+    background-color: #f5f5f5;
+    margin-top: 0.5rem;
+    border-color: #ffffff;
+    border-radius: 1rem;
+}
+.packText{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-family:"Kulim Park" light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.packPrice{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: 'Times New Roman';
+    font-size: 1rem;
+}
+.productButton{
+    height: 2.75rem;
+    width: 16.25rem;
+    margin-top: 1rem;
+    align-self: center;
+    text-align: center;
+    font-family: "Kulim Park", sans-serif;
+    font-style: italic;
+    border-radius: 1.25rem;
+    border-color: transparent;
+    background-color: #CD628C;
+    color: aliceblue;
+    font-size: 1.2rem;
+}

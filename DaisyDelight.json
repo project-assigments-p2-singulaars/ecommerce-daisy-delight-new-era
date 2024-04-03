@@ -61,10 +61,7 @@
             "price2": "40€",
             "price3": "72€",
             "type":"interior"
-          }
-
-      ],
-      "exterior": [
+          },
         {
           "name": "Gearnio",
           "id": 7,
@@ -144,7 +141,8 @@
           "photo": "/img/imgJson/tulipanes.jpg",
           "price1": "42€",
           "price2": "60€",
-          "price3": "110€"
+          "price3": "110€",
+          "festivities":"Bodas"
         },
         {
           "name": "Claveles",
@@ -153,7 +151,8 @@
           "photo": "/img/imgJson/claveles.jpg",
           "price1": "48€",
           "price2": "64€",
-          "price3": "90€"
+          "price3": "90€",
+          "festivities":"Graduaciones"
         },
         {
           "name": "Girasoles",
@@ -162,7 +161,8 @@
           "photo": "/img/imgJson/girasoles.jpg",
           "price1": "54€",
           "price2": "76€",
-          "price3": "120€"
+          "price3": "120€",
+          "festivities":"Dia de la mujer"
         },
         {
           "name": "Eucalipto",
@@ -171,7 +171,8 @@
           "photo": "/img/imgJson/eucalipto.jpg",
           "price1": "20€",
           "price2": "38€",
-          "price3": "62€"
+          "price3": "62€",
+          "festivities":"Navidad"
         },
         {
           "name": "Hortencias",
@@ -180,7 +181,8 @@
           "photo": "/img/imgJson/hortencias.jpg",
           "price1": "30€",
           "price2": "42€",
-          "price3": "68€"
+          "price3": "68€",
+          "festivities":"SanValentin"
         }
       ],
     "birthday": [

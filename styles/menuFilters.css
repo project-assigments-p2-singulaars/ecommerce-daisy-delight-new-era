@@ -1,0 +1,32 @@
+#menuFilters {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  margin: 1rem 0.5rem 1rem;
+}
+
+.categories {
+  height: 1.5rem;
+  width: auto;
+  padding: 0.5rem;
+  font-family: "Kulim Park", sans-serif;
+  font-size: 1rem;
+  background-color: #efeeee;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+
+.productCard {
+  display: flex;
+}
+
+.productImg {
+  border: blue;
+}
+.productTitle {
+  background-color: red;
+}
+.productPrice {
+  background-color: green;
+}

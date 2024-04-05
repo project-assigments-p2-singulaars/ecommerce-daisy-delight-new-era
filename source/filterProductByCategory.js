@@ -23,28 +23,35 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Función para mostrar todos los productos al cargar la página
-  function showAll() {
-    fetch("http://localhost:3000/")
-      .then((response) => response.json())
-      .then((data) => {
-        const productList = document.getElementById("productList");
-        productList.innerHTML = ""; // Limpiar la lista de productos antes de agregar nuevos
+  async function showAll() {
+    try {
+      const response = await fetch("http://localhost:3000/");
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
 
-        // Recorrer todos los elementos del JSON y crear una tarjeta para cada uno
-        Object.values(data).forEach((category) => {
-          category.forEach((product) => {
-            const card = document.createElement("div");
-            card.classList.add("card");
-            card.innerHTML = `
-              <img class="productImg" src="${product.photo}" alt="${product.name}" />
-              <h2 class="productTitle">${product.name}</h2>
-              <p class="productPrice">Precio: ${product.price1}</p>
-            `;
-            productList.appendChild(card);
-          });
+      const data = await response.json();
+      console.log("Respuesta del servidor:", data);
+
+      const productList = document.getElementById("productList");
+      productList.innerHTML = ""; // Limpiar la lista de productos antes de agregar nuevos
+
+      // Recorrer todos los elementos del JSON y crear una tarjeta para cada uno
+      Object.values(data).forEach((category) => {
+        category.forEach((product) => {
+          const card = document.createElement("div");
+          card.classList.add("card");
+          card.innerHTML = `
+            <img class="productImg" src="${product.photo}" alt="${product.name}" />
+            <h2 class="productTitle">${product.name}</h2>
+            <p class="productPrice">Precio: ${product.price1}</p>
+          `;
+          productList.appendChild(card);
         });
-      })
-      .catch((error) => console.error("Error al cargar los productos:", error));
+      });
+    } catch (error) {
+      console.error("Error al cargar los productos:", error);
+    }
   }
 
   // Función para filtrar productos por categoría

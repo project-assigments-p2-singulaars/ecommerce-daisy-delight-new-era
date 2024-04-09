@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/menuFilters.css" />
+    <script src="/source/filterProductByCategory.js"></script>
+    <script src="/source/cards.js"></script>
+    <title>Nuestros Productos</title>
+  </head>
+  <body>
+    <header class="indexHeader">
+      <nav>
+        <div class="navbar" id="burgerMenu">
+          <img src="/img/Burger.svg" />
+        </div>
+        <div class="navbarIcons">
+          <div class="logo navbar">
+            <img class="logoHeader" src="/img/Logo.svg" />
+          </div>
+          <div class="icons navbar">
+            <img src="/img/Profile.svg" />
+            <img src="/img/Basket.svg" />
+          </div>
+          <div id="searchContainer">
+            <input class="searchText" type="text" id="search-input" placeholder="Buscar...">
+            <button id="searchButton">Buscar</button>
+        </div>
+        </div>
+      </nav>
+    </header>
+    <div id="menuFilters">
+      <button class="categories" id="plantsButton">Plantas</button>
+      <button class="categories" id="festivitiesButton">Festividades</button>
+      <button class="categories" id="birthdayButton">Cumpleaños</button>
+      <!-- <button class="categories" id="showAllButton">Ver Todos</button> -->
+    </div>
+    <div id="productList"></div>
+  </body>
+</html>

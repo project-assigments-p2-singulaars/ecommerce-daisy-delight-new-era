@@ -90,16 +90,20 @@
     font-size: 1rem;
 }
 .productButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 2.75rem;
     width: 16.25rem;
     margin-top: 1rem;
-    align-self: center;
     text-align: center;
     font-family: "Kulim Park", sans-serif;
     font-style: italic;
     border-radius: 1.25rem;
     border-color: transparent;
-    background-color: #CD628C;
+    background-color: #575353;
     color: aliceblue;
     font-size: 1.2rem;
+    text-decoration: none;
+    
 }

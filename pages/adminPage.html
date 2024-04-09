@@ -18,33 +18,48 @@
             <div class="navbar" id="burgerMenu">
                 <img src="/img/Burger.svg">
             </div>
-        <div class="navbarIcons">
-            <div class="logo navbar">
-                <img class="logoHeader" src="/img/Logo.svg">
+            <div class="navbarIcons">
+                <div class="logo navbar">
+                    <img class="logoHeader" src="/img/Logo.svg">
+                </div>
+                <div class="icons navbar">
+                    <a id="profile" class="icons" href="#" target=_blank></a>
+                     <img src="/img/Profile.svg">
+                    </a>
+                    <a id="search" class="icons" href="#" target=_blank>
+                        <img src="/img/Search.svg">
+                    </a>
+                    <a id="search" class="icons" href="#" target=_blank>
+                     <img src="/img/Basket.svg">
+                    </a>
+                </div>
             </div>
-            <div class="icons navbar">
-                <img src="/img/Profile.svg">
-                <img src="/img/Basket.svg">
-            </div>
-        </div>
         </nav>
     </header>
 
     <h2 class="adminTitle">Edición de Producto</h2><br>
-    <form class="adminForm" action="">
+    <form class="adminForm" id="formularioAdmin">
         <label class="adminLabels" for="">Añadir nombre del producto</label>
-        <input  class="labelNameProduct" type="text">
-        <label class="adminLabels" for="">Añadir Url de Foto</label>
-        <input class="labelNameProduct" type="text">
+        <input  class="namePro" type="text">
+
+        <label class="adminLabels" for="">Añadir imagen</label>
+        <input class="imgPro" type="url">
+
         <label class="adminLabels" for="">Descripción</label>
-        <input class="labelNameProduct" type="text">
-        <label class="adminLabels" for="">Pack base</label>
-        <input class="labelNameProduct" type="number">
-        <label class="adminLabels" for="">Pack Medio</label>
-        <input class="labelNameProduct" type="number">
-        <label class="adminLabels" for="">Pack Premuim</label>
-        <input class="labelNameProduct" type="number">
-        <button class="adminButton">Agregar Producto</button>
+        <input class="descriptionPro" type="text">
+
+        <label class="adminLabels" for="">Pack básico</label>
+        <input class="pricePro1" type="number">
+
+        <label class="adminLabels" for="">Pack medio</label>
+        <input class="pricePro2" type="number">
+
+        <label class="adminLabels" for="">Pack premuim</label>
+        <input class="pricePro3" type="number">
+    
+
+        <button class="adminButton" type="submit">Agregar Producto</button>
     </form>
+    <script src="/sources/adminPage.js"></script>
 </body>
 </html>

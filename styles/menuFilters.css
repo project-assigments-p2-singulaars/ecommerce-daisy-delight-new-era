@@ -60,7 +60,7 @@
   height: 23rem;
 }
 
-#productList {
+#plants{
   display: flex;
   flex-direction: column;
   align-items: center;

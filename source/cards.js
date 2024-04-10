@@ -1,57 +1,51 @@
+const productContainer = document.getElementById("plants");
+const productsURL= "http://localhost:3000/plants";
 
-let apiUrlFlowers = "http://localhost:3000/";
 
-function callApi(apiUrlFlowers) {
-    try {
-        const response = fetch(apiUrlFlowers);
-        const data = response.json();
-        data.map((DaisyDelight) => {
-            console.log(DaisyDelight);
-        });
-    } catch (error) {
-        console.error('Error al obtener datos de la API:', error);
-    }
-}
+const getProducts = () => {
+    const result = fetch(productsURL)
+    .then(response => 
+        response.json()
+    )
 
-document.addEventListener('DOMContentLoaded', function() {
-    const searchButton = document.getElementById('searchButton');
+    //.then(data => console.log(data))
+    .catch(error => console.log ('Error',error))
+    return result;
 
-    searchButton.addEventListener('click', function() {
-        const userInput = document.getElementById('search-input').value;
-        filterPlants(userInput);
+
+};
+
+export const printProducts = (result) => {
+    result.forEach(plants => {
+        const card = document.createElement('div');
+        card.classList.add('card');
+        card.innerHTML = `
+        <div class="imgContainer">
+              <img class="productCardImg" src="${plants.photo}" alt="${plants.name}" />
+            </div>
+            <div class="detailContainer">
+              <h2 class="productTitle">${plants.name}</h2>
+              <p class="productPrice">Precio: ${plants.price1}</p>
+            </div>
+        `;
+        productContainer.appendChild(card);     
     });
-});
+};
 
-async function filterPlants(userInput) {
-    try {
-        const response = await fetch(apiUrlFlowers);
-        const DaisyDelight= await response.json();
-        plantList.innerHTML = '';
 
-        if (DaisyDelight.length > 0) {
-            const filteredPlants = DaisyDelight.filter(DaisyDelight => DaisyDelight.name.includes(userInput));
-
-            filteredPlants.forEach(DaisyDelight => {
-                const plantItem = document.createElement('div');
-                plantItem.classList.add("plantCard");
-
-                plantItem.innerHTML = `
-                    <h2>${DaisyDelight.name}</h2>
-                    <p><strong>Descripción:</strong> ${DaisyDelight.description}</p>
-                    <img src="${DaisyDelight.photo}" alt="${DaisyDelight.name}" style="max-width: 200px;">
-                    <p><strong>Precios:</strong> ${DaisyDelight.price1}, ${DaisyDelight.price2}, ${DaisyDelight.price3}</p>
-                    <hr>
-                `;
-                plantList.appendChild(plantItem);
-            });
-        } else {
-            const noResults = document.createElement('p');
-            noResults.textContent = 'No se encontraron plantas.';
-            plantList.appendChild(noResults);
-        }
-    } catch (error) {
-        console.error('Error al filtrar plantas:', error);
-    }
+async function loadPlants(){
+    const plantsList=await getProducts();
+    console.log(plantsList)
+    printProducts(plantsList);
 }
 
-callApi='http://localhost:3000/'
+loadPlants();
+
+
+
+
+
+
+
+
+

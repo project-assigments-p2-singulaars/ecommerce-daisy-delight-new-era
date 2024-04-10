@@ -279,6 +279,16 @@
       "price2": "",
       "price3": "",
       "categoryProd": ""
+    },
+    {
+      "id": "6c48",
+      "name": "MichiFlor",
+      "img": "https://www.pinterest.es/pin/2744449767626991/",
+      "description": "Unica variante michuna en el planeta",
+      "price1": "44",
+      "price2": "5465",
+      "price3": "4654",
+      "categoryProd": "DGDGFD"
     }
   ]
 }

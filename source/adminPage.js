@@ -34,7 +34,8 @@ formulario.addEventListener('submit', event =>{
           },
         })
           .then((response) => response.json())
-          .then((json) => console.log(json));
+          .then((json) => console.log(json))
+          .catch((error) => console.log(error))
 })
     fetch('http://localhost:3000/plants', {
       method: 'DELETE',

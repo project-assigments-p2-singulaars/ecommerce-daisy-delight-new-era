@@ -1,3 +1,7 @@
+body{
+  max-width: 100rem;
+}
+
 #menuFilters {
   display: flex;
   justify-content: space-evenly;
@@ -62,9 +66,11 @@
 
 #plants{
   display: flex;
-  flex-direction: column;
+  flex-wrap:wrap;
   align-items: center;
-  margin: 0 0.5rem;
+  justify-content: center;
+  margin: 0 1rem;
+  gap:7rem;
 }
 
 .detailContainer {

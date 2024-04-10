@@ -6,6 +6,7 @@
 .adminTitle{
     font-size: 1.8rem;
     font-family: "Kulim Park", sans-serif;
+    color: #587070;
     font-style: light;
     display: flex;
     align-items: center;
@@ -23,13 +24,25 @@
     margin-right: 3.125rem;
     gap: 1.25rem;
 }
+
+.textFormu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Kulim Park", sans-serif;
+    font-style: light;
+    height: 2rem;
+    border:light;
+}
 .adminLabels{
     font-family: "Kulim Park", sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
 }
+
 .labelNameProduct{
-    background-color: #C8D7DC;
-    height: 2.313rem;
+    height: 2.313rem
     border: none;
 }
 .adminButton{
@@ -38,7 +51,7 @@
     align-self: center;
     text-align: center;
     font-family: "Kulim Park", sans-serif;
-    font-style: italic;
+    font-style: light;
     border-radius: 1.25rem;
     border-color: transparent;
     background-color: #575353;

@@ -1,3 +1,23 @@
+@font-face{
+    font-family:'HelveticaNeue-UltraLight';
+    src: url(/fonts/HelveticaNeue\ UltraLight.otf);
+}
+@font-face{
+    font-family:'HelveticaNeue-Light';
+    src: url(/fonts/HelveticaNeue\ Light.otf);
+}
+@font-face{
+    font-family:'HelveticaNeue-Regular';
+    src: url(/fonts/HelveticaNeue\ Regular.otf);
+}
+@font-face{
+    font-family:'Bodoni-Regular';
+    src: url(/fonts/Bodoni\ MT\ Regular.TTF);
+}
+@font-face{
+    font-family:'Bodoni-Bold';
+    src: url(/fonts/Bodoni\ MT\ Bold.TTF);
+}
 nav{
     background-color: #F5F3F3;
     display: flex;
@@ -13,10 +33,7 @@ nav{
     margin-left: 4vw;
     align-items: center;
 }
-@font-face{
-    font-family:'HelveticaNeue-Light';
-    src: url(/fonts/HelveticaNeueLTStd-Lt.otf);
-}
+
 .logoHeader{
 padding-top: 1.3rem;
 }

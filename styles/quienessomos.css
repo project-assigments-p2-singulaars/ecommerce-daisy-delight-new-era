@@ -1,0 +1,48 @@
+@media screen and (max-width:768px){
+    .quienesSomosImg{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width:100%;
+    }
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6rem;
+        height: 4rem;
+    }
+
+}
+
+.textContainer{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top:-14rem;
+    padding: 3rem;
+}
+
+.quienesSomos{
+text-align: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.quienesSomosImg{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width:20rem;
+    margin-top: 12rem;
+}
+

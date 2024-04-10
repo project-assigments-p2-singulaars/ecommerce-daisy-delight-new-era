@@ -16,33 +16,24 @@
 }
 
 .textContainer{
-    height:100vh;
+    height:100%;
     display:flex;
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    margin-top:-14rem;
-    padding: 3rem;
+    margin-top:0.1rem;
+    padding: 1rem;
 }
 
 .quienesSomos{
+    margin-top: 2rem;
 text-align: center;
 }
 
-.imgContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.5rem;
-    height: 2rem;
-}
 
 .quienesSomosImg{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    width:20rem;
-    margin-top: 12rem;
+
+    width:50%;
 }
 

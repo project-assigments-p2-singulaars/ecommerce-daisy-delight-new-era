@@ -1,9 +1,8 @@
-
 {
-  "plants":[
+  "plants": [
     {
       "name": "Orquidea",
-      "id": 1,
+      "id": "1",
       "description": "La orquídea, planta de la familia Orchidaceae, destaca por su diversidad y belleza. Sus flores exóticas y adaptaciones únicas la convierten en una joya de la naturaleza y la jardinería.",
       "photo": "/img/imgJson/orquidea.jpg",
       "price1": "20€",
@@ -13,7 +12,7 @@
     },
     {
       "name": "Peace Lily",
-      "id": 2,
+      "id": "2",
       "description": "La planta Peace Lily (Espatifilo) es conocida por sus elegantes hojas verdes brillantes y sus flores blancas en forma de espátula. Es popular por su facilidad de cuidado en interiores.",
       "photo": "/img/imgJson/peaceLily.jpg",
       "price1": "25€",
@@ -23,7 +22,7 @@
     },
     {
       "name": "Margarita",
-      "id": 3,
+      "id": "3",
       "description": "La margarita es una planta herbácea con flores blancas y amarillas, conocida por su aspecto simple y encantador. Es popular en jardines y como flor cortada para arreglos florales.",
       "photo": "/img/imgJson/margarita.jpg",
       "price1": "28€",
@@ -33,7 +32,7 @@
     },
     {
       "name": "Lirios",
-      "id": 4,
+      "id": "4",
       "description": " Los lirios son plantas bulbosas con flores grandes y vistosas en una variedad de colores y formas. Conocidos por su elegancia y fragancia, son populares en jardines y arreglos florales.",
       "photo": "/img/imgJson/lirio.jpg",
       "price1": "30€",
@@ -43,7 +42,7 @@
     },
     {
       "name": "Peonias",
-      "id": 5,
+      "id": "5",
       "description": " Las peonías son plantas perennes con flores grandes y exuberantes en tonos suaves y vibrantes. Conocidas por su belleza romántica y aroma embriagador, son populares en jardines y ramos de novia.",
       "photo": "/img/imgJson/peonia.jpg",
       "price1": "32€",
@@ -53,7 +52,7 @@
     },
     {
       "name": "Dalias",
-      "id": 6,
+      "id": "6",
       "description": "Las peonías son plantas perennes apreciadas por sus exuberantes y fragantes flores en una variedad de colores. Su elegancia atemporal las convierte en favoritas para jardines y arreglos florales.",
       "photo": "/img/imgJson/dalia.jpg",
       "price1": "25€",
@@ -63,7 +62,7 @@
     },
     {
       "name": "Gearnio",
-      "id": 7,
+      "id": "7",
       "description": "El geranio es una planta de flores vistosas y hojas aromáticas. Sus colores van desde el rojo al rosa y al blanco. Se cultiva en jardines y macetas por su belleza duradera.",
       "photo": "/img/imgJson/geranio.jpg",
       "price1": "30€",
@@ -73,7 +72,7 @@
     },
     {
       "name": "Jazmín",
-      "id": 8,
+      "id": "8",
       "description": " El jazmín es una enredadera o arbusto con flores blancas o amarillas, conocido por su fragancia dulce y embriagadora. Es popular en jardines y se utiliza en perfumería y aromaterapia.",
       "photo": "/img/imgJson/jazmin.jpg",
       "price1": "28€",
@@ -83,7 +82,7 @@
     },
     {
       "name": "Agapanto",
-      "id": 9,
+      "id": "9",
       "description": "El Agapanto es una planta perenne con tallos altos y flores en forma de campana en tonos de azul y blanco. Es resistente y se destaca en bordes de jardines.",
       "photo": "/img/imgJson/agapanto.jpg",
       "price1": "35€",
@@ -93,7 +92,7 @@
     },
     {
       "name": "Boj",
-      "id": 10,
+      "id": "10",
       "description": "El boj es un arbusto de hoja perenne con follaje denso y verde oscuro. Con su forma compacta y versatilidad en el diseño del paisaje, es apreciado en jardinería formal y topiaria.",
       "photo": "/img/imgJson/boj.jpg",
       "price1": "35€",
@@ -103,7 +102,7 @@
     },
     {
       "name": "Adelfa",
-      "id": 11,
+      "id": "11",
       "description": " La adelfa es un arbusto ornamental de hoja perenne con flores llamativas en tonos de blanco, rosa o rojo. A pesar de su belleza, todas las partes de la planta son tóxicas.",
       "photo": "/img/imgJson/adelfa.jpg",
       "price1": "40€ ",
@@ -113,7 +112,7 @@
     },
     {
       "name": "Bungavilla",
-      "id": 12,
+      "id": "12",
       "description": "La buganvilla es una enredadera o arbusto trepador con flores llamativas en tonos de rosa, púrpura, rojo o blanco, rodeadas por brácteas coloridas. Es resistente y añade color a los jardines.",
       "photo": "/img/imgJson/bungavilla.jpg",
       "price1": "35€",
@@ -123,7 +122,7 @@
     },
     {
       "name": "Rosa",
-      "id": 13,
+      "id": "13",
       "description": "La rosa es una planta ornamental conocida por sus hermosas y fragantes flores en una amplia gama de colores. Es símbolo de amor y belleza, y es popular en jardines y arreglos florales.",
       "photo": "/img/imgJson/rosa1.jpg",
       "price1": "40€",
@@ -133,7 +132,7 @@
     },
     {
       "name": "Tulipanes",
-      "id": 14,
+      "id": "14",
       "description": "Los tulipanes son flores bulbosas de colores vibrantes y formas elegantes. Representan la belleza y la declaración de amor. Su frescura y variedad los hacen perfectos para cualquier ocasión especial.",
       "photo": "/img/imgJson/tulipanes.jpg",
       "price1": "42€",
@@ -143,7 +142,7 @@
     },
     {
       "name": "Claveles",
-      "id": 15,
+      "id": "15",
       "description": "Los claveles son flores populares con pétalos dentados y colores vibrantes. Simbolizan el amor, la admiración y la gratitud. Son versátiles y se usan comúnmente en arreglos florales y ramos.",
       "photo": "/img/imgJson/claveles.jpg",
       "price1": "48€",
@@ -153,7 +152,7 @@
     },
     {
       "name": "Girasoles",
-      "id": 16,
+      "id": "16",
       "description": "Los girasoles son flores llamativas y alegres con grandes cabezas amarillas que siguen la trayectoria del sol. Simbolizan la alegría, la vitalidad y la positividad, iluminando cualquier espacio",
       "photo": "/img/imgJson/girasoles.jpg",
       "price1": "54€",
@@ -163,7 +162,7 @@
     },
     {
       "name": "Eucalipto",
-      "id": 17,
+      "id": "17",
       "description": "El eucalipto es un árbol aromático de hojas lanceoladas, originario de Australia, utilizado en medicina, perfumería y construcción. ",
       "photo": "/img/imgJson/eucalipto.jpg",
       "price1": "20€",
@@ -173,7 +172,7 @@
     },
     {
       "name": "Hortencias",
-      "id": 18,
+      "id": "18",
       "description": "Las hortensias son arbustos de flores exuberantes y redondeadas en una variedad de colores vibrantes. Simbolizan la gratitud, la belleza y la abundancia, agregando encanto a los jardines.            ",
       "photo": "/img/imgJson/hortencias.jpg",
       "price1": "30€",
@@ -183,7 +182,7 @@
     },
     {
       "name": "Gerberas",
-      "id": 19,
+      "id": "19",
       "description": "La gerbera es una flor vibrante y alegre con pétalos brillantes y un centro distintivo. Representa la alegría y la vitalidad, añadiendo un toque de color y felicidad a cualquier ocasión.",
       "photo": "/img/imgJson/gerberas.jpg",
       "price1": "30€",
@@ -193,7 +192,7 @@
     },
     {
       "name": "Alstroemeria",
-      "id": 20,
+      "id": "20",
       "description": "Elegantes y coloridas, las alstroemerias simbolizan amistad y devoción, con pétalos en varios tonos.",
       "photo": "/img/imgJson/alstroemeria.jpg",
       "price1": "22€",
@@ -203,7 +202,7 @@
     },
     {
       "name": "Crisantemo",
-      "id": 21,
+      "id": "21",
       "description": "Representan alegría y longevidad, con una amplia variedad de colores y formas para celebrar un cumpleaños festivo.",
       "photo": "/img/imgJson/crisantemo.jpg",
       "price1": "20€",
@@ -213,7 +212,7 @@
     },
     {
       "name": "Begonias",
-      "id": 22,
+      "id": "22",
       "description": "Las begonias son plantas ornamentales apreciadas por sus flores vistosas y follaje decorativo. Varían en tamaño y color, ideales para interiores o exteriores con sombra parcial. Adornan jardines y espacios interiores.",
       "photo": "/img/imgJson/begonias.jpg",
       "price1": "52€",
@@ -223,7 +222,7 @@
     },
     {
       "name": "Gypsophila",
-      "id": 23,
+      "id": "23",
       "description": "Delicadas y románticas, las gypsophilas, también conocidas como velo de novia, aportan encanto y dulzura a cualquier ramo de cumpleaños.",
       "photo": "/img/imgJson/gypsophilia.jpg",
       "price1": "38€",
@@ -233,13 +232,193 @@
     },
     {
       "name": "Statice",
-      "id": 24,
+      "id": "24",
       "description": "Con sus pequeñas flores de colores vibrantes, las statice simbolizan remembranza y recuerdo, agregando un toque significativo a la celebración del cumpleaños.",
       "photo": "/img/imgJson/statice.jpg",
       "price1": "58€",
       "price2": "78€",
       "price3": "110€",
       "category": "birthday"
+    },
+    {
+      "id": "a623",
+      "name": "Aas",
+      "img": "https://www.pinterest.es/pin/281543723511191/",
+      "description": "Unica variante michuna en el planeta",
+      "price1": "21",
+      "price2": "12",
+      "price3": "21",
+      "categoryProd": "Cumple"
+    },
+    {
+      "id": "7e24",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "e0fc",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "e729",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "f991",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "116d",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "98f6",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "b923",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "bbdd",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "8e02",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "ae99",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "0a8f",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "a9f9",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "50ea",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "f543",
+      "name": "sd",
+      "img": "https://www.pinterest.es/pin/281543723511191/",
+      "description": "Unica variante michuna en el planeta",
+      "price1": "123",
+      "price2": "1231",
+      "price3": "23",
+      "categoryProd": "cadasa"
+    },
+    {
+      "id": "ee78",
+      "name": "MichiFlor",
+      "img": "https://www.pinterest.es/pin/2744449767626991/",
+      "description": "Unica variante michuna en el planeta",
+      "price1": "13",
+      "price2": "23",
+      "price3": "12312",
+      "categoryProd": "cadasa"
+    },
+    {
+      "id": "9933",
+      "name": "",
+      "img": "",
+      "description": "",
+      "price1": "",
+      "price2": "",
+      "price3": "",
+      "categoryProd": ""
+    },
+    {
+      "id": "0e6d",
+      "name": "MichiFlor",
+      "img": "https://www.pinterest.es/pin/2744449767626991/",
+      "description": "Unica variante michuna en el planeta",
+      "price1": "22",
+      "price2": "22",
+      "price3": "22",
+      "categoryProd": "dsss"
     }
-    ]}
-
+  ]
+}

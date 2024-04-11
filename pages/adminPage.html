@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/adminPage.css" />
     <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon" />
+    <script src="/source/adminPage.js" defer></script>
     <title>Pagina Administrador</title>
   </head>
   <body>
@@ -59,15 +60,16 @@
     <h2 class="adminTitle">Edición de Producto</h2>
     <br />
     <form class="adminForm" id="formularioAdmin">
-      <label class="adminLabels" for="nameText"
-        >Añadir nombre del producto</label
-      >
+      
+        <label class="adminLabels" for="nameText"
+        >Añadir nombre del producto</label>
       <input
         class="textFormu"
         id="namePro"
         type="text"
         name="nametext"
         placeholder="Nombre del producto"
+        required
       />
 
       <label class="adminLabels" for="">Añadir imagen</label>
@@ -76,6 +78,7 @@
         id="imgPro"
         type="url"
         placeholder="Pegar url..."
+        required
       />
 
       <label class="adminLabels" for="">Descripción</label>
@@ -84,6 +87,7 @@
         id="descriptionPro"
         type="text"
         placeholder="Describe brevemente el producto..."
+        required
       />
 
       <label class="adminLabels" for="">Pack básico</label>
@@ -92,6 +96,7 @@
         id="pricePro1"
         type="number"
         placeholder="Precio en €"
+        required
       />
 
       <label class="adminLabels" for="">Pack medio</label>
@@ -100,6 +105,7 @@
         id="pricePro2"
         type="number"
         placeholder="Precio en €"
+        required
       />
 
       <label class="adminLabels" for="">Pack premuim</label>
@@ -108,6 +114,7 @@
         id="pricePro3"
         type="number"
         placeholder="Precio en €"
+        required
       />
 
       <label class="adminLabels" for="">Categoría</label>
@@ -116,9 +123,12 @@
         id="categoryProd"
         type="text"
         placeholder="Categoría del producto..."
+        required
       />
 
-      <button class="adminButton" type="submit">Agregar Producto</button>
+      <button class="adminButton" id="buttonAddProduct" type="submit">Agregar Producto</button>
+        </div>
+      </div>
     </form>
   </body>
 </html>

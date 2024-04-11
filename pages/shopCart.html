@@ -1,88 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/cartPage.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/cartPage.css" />
     <title>Carrito-Mi Compra</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="indexHeader">
-        <nav>
-            <div class="navbar" id="burgerMenu">
-                <img src="/img/Burger.svg">
-            </div>
-            <div class="navbarIcons">
-                <div class="logo navbar">
-                    <img class="logoHeader" src="/img/Logo.svg">
-                </div>
-                <div class="icons navbar">
-                    <img src="/img/Profile.svg">
-                    <img src="/img/Basket.svg">
-                </div>
-            </div>
-        </nav>
+      <nav>
+        <div class="navbar" id="burgerMenu">
+          <img src="/img/Burger.svg" />
+        </div>
+        <div class="navbarIcons">
+          <div class="logo navbar">
+            <img src="/img/Logo.svg" />
+          </div>
+          <div class="navbarMenu">
+            <a href="#">Inicio</a>
+            <a href="#">Tienda</a>
+            <a href="#">Quiénes somos</a>
+            <a href="#">Contacto</a>
+          </div>
+          <div class="icons navbar">
+            <a
+              id="profile"
+              class="icons"
+              href="/pages/adminPage.html"
+              target="_self"
+            >
+              <img src="/img/Profile.svg" />
+            </a>
+            <a id="search" class="icons" target="_self">
+              <img src="/img/Search.svg" />
+            </a>
+            <a
+              id="basket"
+              class="icons"
+              href="/pages/shopCart.html"
+              target="_self"
+            >
+              <img src="/img/Basket.svg" />
+            </a>
+          </div>
+        </div>
+      </nav>
     </header>
     <section class="myCart">
-        <h2 class="titleCart">Mi Carrito</h2>
-        <div class="cardProduct">
-            <div class="photoProductContainer">
-                <img class="productCartPhoto" src="/img/80b7751168bf5e4cc88965c659457861.jpg" alt="Foto de Producto de Carrito">
-            </div>
-            <div class="infoProductCart">
-                <p class="textDescripcionProduct">Añadir descripción</p>
-                <div class="queantity">
-                    <button class="buttonQueantity">-</button>
-                    <span class="queantityProduct">1</span>
-                    <button class="buttonQueantity">+</button>
-                    <p>€00.00</p>
-                </div>
-            </div>
+      <h2 class="titleCart">Mi Carrito</h2>
+      <div class="cardProduct">
+        <div class="photoProductContainer">
+          <img
+            class="productCartPhoto"
+            src="/img/80b7751168bf5e4cc88965c659457861.jpg"
+            alt="Foto de Producto de Carrito"
+          />
         </div>
-        <div class="cardProduct">
-            <div class="photoProductContainer">
-                <img class="productCartPhoto" src="/img/80b7751168bf5e4cc88965c659457861.jpg" alt="Foto de Producto de Carrito">
-            </div>
-            <div class="infoProductCart">
-                <p class="textDescripcionProduct">Añadir descripción</p>
-                <div class="queantity">
-                    <button class="buttonQueantity">-</button>
-                    <span class="queantityProduct">1</span>
-                    <button class="buttonQueantity">+</button>
-                    <p>€00.00</p>
-                </div>
-            </div>
+        <div class="infoProductCart">
+          <p class="textDescripcionProduct">Añadir descripción</p>
+          <div class="queantity">
+            <button class="buttonQueantity">-</button>
+            <span class="queantityProduct">1</span>
+            <button class="buttonQueantity">+</button>
+            <p>€00.00</p>
+          </div>
         </div>
-        <div class="cardProduct">
-            <div class="photoProductContainer">
-                <img class="productCartPhoto" src="/img/80b7751168bf5e4cc88965c659457861.jpg" alt="Foto de Producto de Carrito">
-            </div>
-            <div class="infoProductCart">
-                <p class="textDescripcionProduct">Añadir descripción</p>
-                <div class="queantity">
-                    <button class="buttonQueantity">-</button>
-                    <span class="queantityProduct">1</span>
-                    <button class="buttonQueantity">+</button>
-                    <p>€00.00</p>
-                </div>
-            </div>
+      </div>
+      <div class="cardProduct">
+        <div class="photoProductContainer">
+          <img
+            class="productCartPhoto"
+            src="/img/80b7751168bf5e4cc88965c659457861.jpg"
+            alt="Foto de Producto de Carrito"
+          />
         </div>
-        <hr>
-        <div class="totalPrice">
-            <p class="textTotal">TOTAL: </p>
-            <p class="priceCart">€00.00</p>
+        <div class="infoProductCart">
+          <p class="textDescripcionProduct">Añadir descripción</p>
+          <div class="queantity">
+            <button class="buttonQueantity">-</button>
+            <span class="queantityProduct">1</span>
+            <button class="buttonQueantity">+</button>
+            <p>€00.00</p>
+          </div>
         </div>
-        <button class="buyButton">Tramitar Pago</button>
+      </div>
+      <div class="cardProduct">
+        <div class="photoProductContainer">
+          <img
+            class="productCartPhoto"
+            src="/img/80b7751168bf5e4cc88965c659457861.jpg"
+            alt="Foto de Producto de Carrito"
+          />
+        </div>
+        <div class="infoProductCart">
+          <p class="textDescripcionProduct">Añadir descripción</p>
+          <div class="queantity">
+            <button class="buttonQueantity">-</button>
+            <span class="queantityProduct">1</span>
+            <button class="buttonQueantity">+</button>
+            <p>€00.00</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="totalPrice">
+        <p class="textTotal">TOTAL:</p>
+        <p class="priceCart">€00.00</p>
+      </div>
+      <button class="buyButton">Tramitar Pago</button>
     </section>
-</body>
-
+  </body>
 </html>

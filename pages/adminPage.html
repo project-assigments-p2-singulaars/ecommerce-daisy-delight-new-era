@@ -58,20 +58,67 @@
 
     <h2 class="adminTitle">Edición de Producto</h2>
     <br />
-    <form class="adminForm" action="">
-      <label class="adminLabels" for="">Añadir nombre del producto</label>
-      <input class="labelNameProduct" type="text" />
-      <label class="adminLabels" for="">Añadir Url de Foto</label>
-      <input class="labelNameProduct" type="text" />
+    <form class="adminForm" id="formularioAdmin">
+      <label class="adminLabels" for="nameText"
+        >Añadir nombre del producto</label
+      >
+      <input
+        class="textFormu"
+        id="namePro"
+        type="text"
+        name="nametext"
+        placeholder="Nombre del producto"
+      />
+
+      <label class="adminLabels" for="">Añadir imagen</label>
+      <input
+        class="textFormu"
+        id="imgPro"
+        type="url"
+        placeholder="Pegar url..."
+      />
+
       <label class="adminLabels" for="">Descripción</label>
-      <input class="labelNameProduct" type="text" />
-      <label class="adminLabels" for="">Pack base</label>
-      <input class="labelNameProduct" type="number" />
-      <label class="adminLabels" for="">Pack Medio</label>
-      <input class="labelNameProduct" type="number" />
-      <label class="adminLabels" for="">Pack Premuim</label>
-      <input class="labelNameProduct" type="number" />
-      <button class="adminButton">Agregar Producto</button>
+      <input
+        class="textFormu"
+        id="descriptionPro"
+        type="text"
+        placeholder="Describe brevemente el producto..."
+      />
+
+      <label class="adminLabels" for="">Pack básico</label>
+      <input
+        class="textFormu"
+        id="pricePro1"
+        type="number"
+        placeholder="Precio en €"
+      />
+
+      <label class="adminLabels" for="">Pack medio</label>
+      <input
+        class="textFormu"
+        id="pricePro2"
+        type="number"
+        placeholder="Precio en €"
+      />
+
+      <label class="adminLabels" for="">Pack premuim</label>
+      <input
+        class="textFormu"
+        id="pricePro3"
+        type="number"
+        placeholder="Precio en €"
+      />
+
+      <label class="adminLabels" for="">Categoría</label>
+      <input
+        class="textFormu"
+        id="categoryProd"
+        type="text"
+        placeholder="Categoría del producto..."
+      />
+
+      <button class="adminButton" type="submit">Agregar Producto</button>
     </form>
   </body>
 </html>

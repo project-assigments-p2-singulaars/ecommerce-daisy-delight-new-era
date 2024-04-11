@@ -1,155 +1,156 @@
 .greetingCard {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 90vh;
-  background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    background-color: #E2E2E2;
 }
 .greetingContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8%;
+
 }
-.deliveryContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8%;
+.deliveryContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8%;
 }
 #greetingTitle {
-  font-family: "Bodoni-Regular";
-  font-size: 4.25rem;
-  color: #373737;
-  line-height: 80%;
+    font-family: 'Bodoni-Regular';
+    font-size: 4.25rem;
+    color: #373737;
+    line-height: 80%;
 }
-#deliveryTitle {
-  font-family: "Bodoni-Regular";
-  font-size: 4.25rem;
-  color: #373737;
-  line-height: 80%;
+#deliveryTitle{
+    font-family: 'Bodoni-Regular';
+    font-size: 4.25rem;
+    color: #373737;
+    line-height: 80%;
 }
 .greetingSubtitle {
-  font-family: "HelveticaNeue-UltraLight";
-  color: #373737;
-  line-height: 120%;
+    font-family: 'HelveticaNeue-UltraLight';
+    color: #373737;
+    line-height: 120%;
 }
-#buttonHome {
-  background-color: #fbfafa;
-  color: #373737;
-  cursor: pointer;
+#buttonHome{
+    background-color: #FBFAFA;
+    color: #373737;
 }
-#newProductsCard {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  column-gap: 9%;
-  height: 75vh;
+
+#newProductsCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 9%;
+    height: 75vh;
 }
-#newProductsContainer {
-  height: 93vh;
+#newProductsContainer{
+    height: 93vh;
 }
 .deliveryCard {
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
-  align-items: center;
-  gap: 5%;
-  height: 100vh;
-  background-color: #e2e2e2;
-}
-@media screen and (max-width: 768px) {
-  .greetingContent {
-    height: 37vh;
-    width: 75vw;
-    margin-top: 15%;
-  }
-  .deliveryContent {
-    height: 37vh;
-    width: 75vw;
-  }
-  #buttonHome {
-    width: 11.938rem;
-    font-size: 1.625rem;
-    font-family: "Bodoni-Bold";
-    padding: 0.5rem;
-    border-radius: 50px;
-    text-align: center;
-  }
-  #buttonDelivery {
-    margin-top: 12%;
-    width: 14.313rem;
-    font-size: 1.625rem;
-    font-family: "Bodoni-Bold";
-    padding: 0.5rem;
-    border-radius: 50px;
-    background-color: #fbfafa;
-    color: #373737;
-  }
-  .greetingSubtitle {
-    font-size: 2rem;
-    height: 36%;
-  }
-  #imgHome {
-    width: 90%;
-  }
-  #imgDelivery {
-    width: 100%;
-    transform: rotate(270deg);
-  }
-  .newProductsImg {
-    width: 9.875rem;
-  }
-  #newProductsTitle {
-    font-family: "Bodoni-Regular";
-    font-size: 3rem;
-    color: #373737;
-    height: 8.625rem;
     display: flex;
+    justify-content: end;
+    flex-direction: column;
     align-items: center;
-    margin-left: 2.188rem;
-  }
-  .newProductsText {
-    font-family: "HelveticaNeue-Light";
-    font-size: 16px;
-    color: #587070;
-    margin-top: 0.938rem;
-  }
-  .newProductsPrice {
-    font-family: "HelveticaNeue-Regular";
-    font-size: 16px;
-    color: #587070;
-    margin-top: 0.625rem;
-  }
+    gap: 5%;
+    height: 100vh;
+    background-color: #E2E2E2;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .navbarMenu {
-    display: none;
-  }
-  #imgHome {
-    width: 70%;
-  }
-  .greetingSubtitle {
-    width: 50vw;
-  }
+@media screen and (max-width:768px){
+    .greetingContent{
+        height: 37vh;
+        width: 75vw;
+        margin-top: 15%;
+    }
+    .deliveryContent{
+        height: 37vh;
+        width: 75vw;
+    }
+    #buttonHome{
+        width: 11.938rem;
+        font-size: 1.625rem;
+        font-family: 'Bodoni-Bold';
+        padding: 0.5rem;
+        border-radius: 50px;
+    }
+    #buttonDelivery{
+        margin-top: 12%;
+        width: 14.313rem;
+        font-size: 1.625rem;
+        font-family: 'Bodoni-Bold';
+        padding: 0.5rem;
+        border-radius: 50px;
+        background-color: #FBFAFA;
+        color: #373737;
+    }
+    .greetingSubtitle{
+        font-size: 2rem;
+        height: 36%;
+    }
+    #imgHome{
+        width: 90%;
+    }
+    #imgDelivery{
+        width: 100%;
+        transform: rotate(270deg);
+    }
+    .newProductsImg{
+        width: 9.875rem;
+    }
+    #newProductsTitle {
+        font-family: 'Bodoni-Regular';
+        font-size: 3rem;
+        color: #373737;
+        height: 8.625rem;
+        display: flex;
+        align-items: center;
+        margin-left: 2.188rem;  
+    }
+    .newProductsText{
+        font-family:'HelveticaNeue-Light';
+        font-size: 16px;
+        color: #587070;
+        margin-top: 0.938rem;
+    }
+    .newProductsPrice{
+        font-family:'HelveticaNeue-Regular';
+        font-size: 16px;
+        color: #587070;
+        margin-top: 0.625rem;
+    }
 }
-@media screen and (min-width: 1024px) {
-  .icons {
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .navbarMenu{
+        display: none;
+    }
+    #imgHome{
+        width: 70%;
+    }
+    .greetingSubtitle{
+        width: 50vw;
+    }
+}
+@media screen and (min-width:1024px){
+.icons{
     gap: 3vw;
-  }
-  .icons img {
+}
+.icons img {
     width: 1.2rem;
-  }
-  #burgerMenu {
+}
+#burgerMenu{
     display: none;
-  }
-  .navbarMenu {
+}
+.navbarMenu{
     display: flex;
     flex-direction: row;
     gap: 6vw;
     justify-content: center;
     font-size: 20px;
-  }
+}
 }

@@ -1,58 +1,29 @@
-import { printProducts } from "../source/cards.js";
-document.addEventListener("DOMContentLoaded", function () {
+// Seleccionamos el div donde se va a imprimir el código
+const container = document.getElementById("newProductsCard");
+const productsURL = "http://localhost:3000/plants";
 
-// Obtener el contenedor de productos
-const productContainer = document.getElementById("plants");
-// Obtener los botones del menú
-const plantsButton = document.getElementById("plantsButton");
-const festivitiesButton = document.getElementById("festivitiesButton");
-const birthdayButton = document.getElementById("birthdayButton");
-const showAllButton = document.getElementById("showAllButton");
-const plantsSection = document.getElementById("plants");
+// Fecth de los datos del JSON
+fetch("http://localhost:3000/plants")
+  .then((response) => response.json())
+  .then((data) => {
+    // Traemos los últimos seis productos del array de productos
+    const lastSixProducts = data.slice(-6);
 
-// Agregar event listeners a los botones
-plantsButton.addEventListener("click", function () {
-    plantsSection.innerHTML = "";
-    filterProductsByCategory("plants");
-});
-festivitiesButton.addEventListener("click", function () {
-    plantsSection.innerHTML = "";
-    filterProductsByCategory("festivities");
-});
-birthdayButton.addEventListener("click", function () {
-    plantsSection.innerHTML = "";
-    filterProductsByCategory("birthday");
-});
-showAllButton.addEventListener("click", function () {
-    printAllProducts();
-});
+    //Creamos el html dinámico
+    lastSixProducts.forEach(product => {
+        const createDiv = document.createElement('div');
+        createDiv.classList.add('newProducts')
+        createDiv.innerHTML= `
+        <a href="#">
+        <img src="${product.photo}" alt="${product.name}" class="newProductsImg">
+        </a>
+        <div class="newProductsText">${product.name}</div>
+        <div class="newProductsPrice">${product.price1}</div>    
+        `
+        container.appendChild(createDiv);
+    });
 
-// Función para filtrar productos por categoría
-function filterProductsByCategory(category) {
-    // Obtener todos los productos
-    fetch("http://localhost:3000/plants")
-    .then((response) => response.json())
-    .then((products) => {
-        products.innerHTML = "";
-        // Filtrar productos por categoría
-        const filteredProducts = products.filter(
-        (product) => product.category === category
-        );
-        // Imprimir productos filtrados
-        printProducts(filteredProducts);
-    })
-    .catch((error) => console.log("Error", error));
-}
-
-  // Función para imprimir todos los productos
-function printAllProducts() {
-    // Obtener todos los productos
-    fetch("http://localhost:3000/plants")
-    .then((response) => response.json())
-    .then((products) => {
-        // Imprimir todos los productos
-        printProducts(products);
-    })
-    .catch((error) => console.log("Error", error));
-}
-});
+  })
+  .catch((error) => {
+    console.error("Error fetching JSON:", error);
+  });

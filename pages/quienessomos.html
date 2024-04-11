@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="/styles/quienessomos.css" />
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon" />
   </head>
   <body>
     <header class="indexHeader">
@@ -26,8 +27,25 @@
             <a href="#">Contacto</a>
           </div>
           <div class="icons navbar">
-            <img src="/img/Profile.svg" />
-            <img src="/img/Basket.svg" />
+            <a
+              id="profile"
+              class="icons"
+              href="/pages/adminPage.html"
+              target="_self"
+            >
+              <img src="/img/Profile.svg" />
+            </a>
+            <a id="search" class="icons" target="_self">
+              <img src="/img/Search.svg" />
+            </a>
+            <a
+              id="basket"
+              class="icons"
+              href="/pages/shopCart.html"
+              target="_self"
+            >
+              <img src="/img/Basket.svg" />
+            </a>
           </div>
         </div>
       </nav>
@@ -56,29 +74,29 @@
         largo de Barcelona y alrededores a si como a cualquier punto de España o
         del mundo a través del servicio de DaisyDelight.
       </p>
-      <img class="quienesSomosImg" src="/img/wewe.jpg">
+      <img class="quienesSomosImg" src="/img/wewe.jpg" />
     </div>
     <footer>
       <div class="footerIcons">
-        <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+        <a href="https://www.facebook.com/?locale=es_ES" target="_self">
           <img src="/img/facebook.svg" />
         </a>
-        <a href="https://www.instagram.com/" target="_blank">
+        <a href="https://www.instagram.com/" target="_self">
           <img src="/img/instagram.svg" />
         </a>
-        <a href="https://twitter.com/?lang=es" target="_blank">
+        <a href="https://twitter.com/?lang=es" target="_self">
           <img src="/img/twitter.svg" />
         </a>
-        <a href="https://www.tiktok.com/es/" target="_blank">
+        <a href="https://www.tiktok.com/es/" target="_self">
           <img src="/img/tiktok.svg" />
         </a>
       </div>
 
       <div class="footerMenu">
-        <a href="#">Inicio</a>
-        <a href="#">Tienda</a>
-        <a href="#">Quiénes somos</a>
-        <a href="#">Contacto</a>
+        <a href="/index.html" target="_self">Inicio</a>
+        <a href="/pages/productPage.html" target="_self">Tienda</a>
+        <a href="/pages/quienessomos.html" target="_self">Quiénes somos</a>
+        <a href="/pages/contacto.html" target="_self">Contacto</a>
       </div>
 
       <div class="footerRights">

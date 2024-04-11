@@ -1,0 +1,81 @@
+body{
+  max-width: 100rem;
+}
+
+#menuFilters {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  margin: 1rem 0.5rem 1rem;
+}
+
+.categories {
+  height: 1.5rem;
+  width: auto;
+  padding: 0.5rem;
+  font-family: "Kulim Park", sans-serif;
+  font-size: 1rem;
+  background-color: #efeeee;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
+
+.productCard {
+  display: flex;
+}
+
+.productCardImg {
+  width: 100%;
+}
+
+.productTitle,
+.productPrice {
+  display: block; /* Añadido */
+  padding: 0.5rem; /* Añadido */
+}
+
+.card {
+  margin: 1rem 0;
+}
+
+.productTitle {
+  font-family: "Kulim Park", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #587070;
+}
+
+.productTitleCategory {
+  font-family: "Kulim Park", sans-serif;
+  color: #373737;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 0.3rem 0;
+}
+
+.productPrice {
+  font-family: "Kulim Park", sans-serif;
+  color: #587070;
+}
+
+.imgContainer {
+  width: 23rem;
+  height: 23rem;
+}
+
+#plants{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  gap:7rem;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}

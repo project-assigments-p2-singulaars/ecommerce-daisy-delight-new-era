@@ -25,7 +25,7 @@ formulario.addEventListener("submit", (event) => {
 
   console.log(datos);
 
-  fetch("http://localhost:3000/plants", {
+  fetch("https://daisy-delight-server.onrender.com/plants", {
     method: "POST",
     body: JSON.stringify(datos),
     headers: {
@@ -36,7 +36,7 @@ formulario.addEventListener("submit", (event) => {
     .then((json) => console.log(json))
     .catch((error) => console.log(error));
 });
-fetch("http://localhost:3000/plants", {
+fetch("https://daisy-delight-server.onrender.com/plants", {
   method: "DELETE",
 });
 

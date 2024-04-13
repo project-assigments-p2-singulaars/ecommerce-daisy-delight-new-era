@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Función para filtrar productos por categoría
   function filterProductsByCategory(category) {
     // Obtener todos los productos
-    fetch("http://localhost:3000/plants")
+    fetch("https://daisy-delight-server.onrender.com/plants")
       .then((response) => response.json())
       .then((products) => {
         products.innerHTML = "";
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Función para imprimir todos los productos
   function printAllProducts() {
     // Obtener todos los productos
-    fetch("http://localhost:3000/plants")
+    fetch("https://daisy-delight-server.onrender.com/plants")
       .then((response) => response.json())
       .then((products) => {
         // Imprimir todos los productos

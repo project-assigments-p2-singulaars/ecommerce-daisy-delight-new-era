@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/adminPage.css" />
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon" />
+    <script src="/source/adminPage.js" defer></script>
+    <title>Pagina Administrador</title>
+  </head>
+  <body>
+    <header class="indexHeader">
+      <nav>
+        <div class="navbar" id="burgerMenu">
+          <img src="/img/Burger.svg" />
+        </div>
+        <div class="navbarIcons">
+          <a href="/index.html" class="logo navbar">
+            <img src="/img/Logo.svg" />
+          </a>
+          <div class="navbarMenu">
+            <a href="#">Inicio</a>
+            <a href="#">Tienda</a>
+            <a href="#">Quiénes somos</a>
+            <a href="#">Contacto</a>
+          </div>
+          <div class="icons navbar">
+            <a
+              id="profile"
+              class="icons"
+              href="/pages/adminPage.html"
+              target="_self"
+            >
+              <img src="/img/Profile.svg" />
+            </a>
+            <a id="search" class="icons" target="_self">
+              <img src="/img/Search.svg" />
+            </a>
+            <a
+              id="basket"
+              class="icons"
+              href="/pages/shopCart.html"
+              target="_self"
+            >
+              <img src="/img/Basket.svg" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <h2 class="adminTitle">Edición de Producto</h2>
+    <br />
+    <form class="adminForm" id="formularioAdmin">
+
+      <label class="adminLabels" for="nameText"
+        >Añadir nombre del producto</label>
+      <input
+        class="textFormu"
+        id="namePro"
+        type="text"
+        name="nametext"
+        placeholder="Nombre del producto"
+        required
+      />
+
+      <label class="adminLabels" for="">Añadir imagen</label>
+      <input
+        class="textFormu"
+        id="imgPro"
+        type="url"
+        placeholder="Pegar url..."
+        required
+      />
+
+      <label class="adminLabels" for="">Descripción</label>
+      <input
+        class="textFormu"
+        id="descriptionPro"
+        type="text"
+        placeholder="Describe brevemente el producto..."
+        required
+      />
+
+      <label class="adminLabels" for="">Pack básico</label>
+      <input
+        class="textFormu"
+        id="pricePro1"
+        type="number"
+        placeholder="Precio en €"
+        required
+      />
+
+      <label class="adminLabels" for="">Pack medio</label>
+      <input
+        class="textFormu"
+        id="pricePro2"
+        type="number"
+        placeholder="Precio en €"
+        required
+      />
+
+      <label class="adminLabels" for="">Pack premuim</label>
+      <input
+        class="textFormu"
+        id="pricePro3"
+        type="number"
+        placeholder="Precio en €"
+        required
+      />
+
+      <label class="adminLabels" for="">Categoría</label>
+      <input
+        class="textFormu"
+        id="categoryProd"
+        type="text"
+        placeholder="Categoría del producto..."
+        required
+      />
+
+      <button class="adminButton" id="buttonAddProduct" type="submit">Agregar Producto</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

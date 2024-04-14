@@ -1,0 +1,39 @@
+@media screen and (max-width:768px){
+    .quienesSomosImg{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width:100%;
+    }
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6rem;
+        height: 4rem;
+    }
+
+}
+
+.textContainer{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top:0.1rem;
+    padding: 1rem;
+}
+
+.quienesSomos{
+    margin-top: 2rem;
+text-align: center;
+}
+
+
+.quienesSomosImg{
+
+    width:50%;
+}
+

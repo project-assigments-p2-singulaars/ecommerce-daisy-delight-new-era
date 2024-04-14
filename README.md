@@ -1,84 +1,80 @@
-# Ecommerce
+# Floristería DaisyDelight
 
-Desarrolla el frontend de una página web una ecommerce, basada en una fake API donde se registran los productos, para simular la interacción con la base de datos y los servicios externos. Esta fake API permitirá al equipo de desarrollo trabajar en el Front-end y en la lógica de la aplicación sin depender de datos reales ni conexiones a sistemas externos. Pertenecerás a un equipo de desarrollo, en el cual deberás desempeñar un rol como developer y llegar a un mínimo producto viable funcional de la aplicación que esté propuesta en el brief de proyecto.
+¡Bienvenidos al proyecto de la página web de la Floristería DaisyDelight!
 
-# Contexto del proyecto
-Como desarrollador/a realizar el diseño y desarrollo de un ecommerce de temática libre. Se tendrá en cuenta el diseño y la experiencia de usuario así como los requerimientos técnicos. Hacemos la maquetación de cada una de las vistas en HTML y CSS (se permite uso de preprocesadores y frameworks de CSS): una vista principal con menu, header, sección de productos, una vista del producto detallado, una vista del carrito y el dashboard de Admin. Hacemos la lógica del carrito de la compra utilizando métodos de arrays en Javascript. Consumimos la fake API usando Json Server para pintar todos los productos y hacer el panel de Admin con el CRUD de productos. Ubicamos nuestra tienda usando Web API Geolocation.
+## Descripción del Proyecto
 
-## Requerimientos técnicos (MVP): 
-- El proyecto se realizará siguiendo el marco de trabajo SCRUM.
-- El desarrollo tendrá tres sprints de una semana cada (28/03, 05/04 y 11/04).
-- Realizar un planning utilizando Trello, pesaje de tareas y product backlog respetando las fechas de las entregas.
-- Es necesario hacer historias de usuario y diagrama de flujo. 
-- Se requiere mockup en Figma y hay que elegir dos resoluciones (Escritorio y móvil).
-- El desarrollo debe ser con HTML, CSS y Javascript vanilla.
-- El desarrollo debe estar en inglés al 100%.
-- El desarrollo debe ser responsive con uso de la estrategia Mobile First.
-- El frontend tiene que estar testeado. 
-- Las funciones básicas de la fake API tienen que estar testadas.
-- El código debe ser ordenado, indentado, semántico y con buenas prácticas de desarrollo: clean code.
-- El desarrollo debe contar con las siguientes vistas: 
-  - Home (con menú de navegación, header, sección de productos, footer) 
-  - Vista del producto detallado
-  - Vista del carrito de compra
-  - Dashboard del Admin (CRUD de productos)
+Este proyecto consiste en el desarrollo de una página web para la Floristería DaisyDelight, una tienda de flores online en el que ofrece una amplia variedad de arreglos florales y servicios relacionados. La página web permitirá a los usuarios explorar el catálogo de productos, realizar pedidos, obtener información sobre eventos especiales y contactar con el equipo de la floristería para consultas adicionales.
 
-## Extras:
-Se puede usar frameworks y preprocesadores de CSS
+## Equipo
 
-## Definición de los sprints:
+- **SrumMaster:** Santiago Agudo (https://github.com/Santiiii12)
+- **ProductOwner:** Laura Benavides (https://github.com/LauraBenavides33)
+- **Desarrolladores:** Iván Vallejos y Sara Jorja (https://github.com/MegaDraconius)(https://github.com/SaraJoLo)
 
-Es importante respetar el orden de requerimientos de cada sprint. En caso de duda con las prioridades se debe hablar con el cliente.
+## Tecnologías Utilizadas
 
-Los sprints se dividen en las siguientes funcionalidades:
-#### Sprint I - Sprint Review 28/03:
-- Menú
-- Header
-- Sección productos
-- Footer
-- Vista del producto detallado
-- Formulario Crear/Editar Producto 
-#### Sprint II - Sprint Review 05/04
-- Filtro por nombre de producto (búsqueda)
-- Filtro por categoría de productos
-- Consumo de fake API usando Json Server para el fetch de productos.
-- Carrito de compra (añadir producto, manipular cantidad de producto, quitar producto).
-#### Sprint III - Entrega final 11/04
-- Consumo de fake API usando Json Server para el CRUD de productos (agregar, eliminar y actualizar los productos que se venden).
-- Implementación de funcionalidades del panel de admin.
-- Separación de vistas de usuario y administrador usando Json Server.
-- Ubicación de tiendas o puntos de venta cercanos (usando Geolocation API)
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
 
-## Modalidades pedagógicas
-- El desarrollo se hará en grupos.
-- El proyecto se desarrollará con el marco de trabajo SCRUM.
-- El equipo contará con un product owner que será cualquiera de las personas del equipo de desarrollo y que hablará con el cliente (Cris o Rocío).
-- Se permite y se incentiva a la colaboración con otros equipos de desarrollo.
+## Funcionalidades Principales
 
-## Modalidades de evaluación
-- Sprint Review 28/03 y 05/04
-- Presentación final el 11/04:
-- Presentación siguiendo los pasos explicados en clase (Cómo presentar un proyecto).
+- Catálogo de productos florales con imágenes y descripciones detalladas.
+- Carrito de compras para agregar y eliminar productos.
+- Formulario de contacto para consultas y solicitudes personalizadas.
+- Panel de administración para la gestión de productos y pedidos.
 
-## Entregables
-- Enlace del Product backlog.
-- Repositorio con el fichero README explicando:
-- Descripción del proyecto (con vistas)
-- Link del despliegue
-- Mockup (enlace Figma)
-- Herramientas utilizadas
-- Cómo instalar el proyecto en el ordenador (local)
+## Instalación
 
-## ¿Qué competencias se evalúan?
-- Maquetar una web nivel 3
-- Desarrollar una interfaz de usuario web dinámica nivel 3
+1. Clona este repositorio en tu máquina local.
+2. Navega a la carpeta del proyecto en tu terminal.
+3. Instala las dependencias del frontend con `npm install`.
+4. Configura las variables de entorno según sea necesario.
+5. Inicia el servidor frontend ejecutando `npm start` en la carpeta `frontend`.
+6. Abre tu navegador web y ve a `http://localhost:3000` para ver la aplicación.
 
-### Inspiración:
-https://www.cyberclick.es/numerical-blog/que-es-un-ecommerce-tipos-como-crearlo-y-ejemplos
-https://www.mercadona.es/
-https://es.wallapop.com/
+## Preview del Proyecto
 
-### Recursos:
-https://www.freecodecamp.org/news/json-server-for-frontend-development/
-https://developer.mozilla.org/en-US/docs/Web/API
-https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+El diseño y estilo de nuestra pagina web se basa en los que se realizo con el equipo de desarrollo, se agradece el enorme trabajo de Laura para ultimar cambios en el.Todo sea realizado en Figma.
+
+![](/img/readme.PNG)
+
+![](/img/Captura.PNG)
+
+![](/img/Capturafigma.PNG)
+
+Para poder visualizar nuestro figma dale al [click](https://www.figma.com/file/Gl7NNI4p3zRwZQmhRyurPZ/Daisy-Delight?type=design&node-id=0-1&mode=design&t=0gcxtvfwts8xmjpA-0).
+
+## Diagrama de flujos
+
+El diagrama de flujos se a basado basicamente en la esquematización del funcionamiento de todos los botones de nuestra página web y del recorrido de los mismos.Todo se a realizado en Miró.
+
+![](/img/Capturamiro.PNG)
+
+Para poder visualizar al comletamente nuestro Miró dale al [click](https://miro.com/app/board/uXjVKbici_w=/).
+
+## Trello
+
+Al principio del proyecto se creo un tablero de Trello el cual serviria para una mejor organizacion de proyecto.En este se incluian las secciones de Backlog con diversas historias de usuario,el To Do en el cual estaban las actividades principales para la web, el InProcess el cual indica las actividades que se estan realizando en es momento y el Done para componentes ya creados.
+
+![](/img/capturatrello.PNG)
+
+Para poder visualizar completamente nuestro Trello dale al [click](https://trello.com/b/XqzojNoM/daisy-delight-ecommerce).
+
+## Despliegue en línea
+
+Para poder realizar el despliegue de nuestro proyecto se tuvo que realizar tanto el despliegue de los nuestros archivos web como los datos de nuestra fake api por lo que les dejamos ambos enlaces a continuación:
+
+- En el siguiente enlace os lleva a Netlify el que se encarga de visualizar la web.
+  [Daisy Delight](https://daisy-delight.netlify.app/).
+
+- Este enlace les lleva a ver el daisy-delight-server que se aloja en Render.
+  [Daisy Delight Server](https://daisy-delight-server.onrender.com/).
+
+- Enlace al repositorio del Daisy Delight Server. [Daisy Delight Server Repositorio](https://github.com/MegaDraconius/Daisy-Delight-Server).
+
+## Contacto
+
+Para cualquier consulta o comentario, por favor contacta a Santiago Agudo Martínez en santi.agudo12@gmail.com Product Owner del Proyecto Daisy Delight.
